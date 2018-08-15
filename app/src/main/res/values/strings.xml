@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">The Guessing Game</string>
+    <string name="directions">I have generated a random integer between 1 and 100. You have five chances to guess what it is. \n\nPress PLAY to begin.</string>
+    <string name="_1_100" tools:ignore="TypographyDashes">1 - 100</string>
+    <string name="guess_a_number">Guess a Number</string>
+    <string name="too_low">Too Low!</string>
+    <string name="submit_guess">SUBMIT GUESS</string>
+    <string name="play">PLAY</string>
+    <string name="outside_range_message" tools:ignore="TypographyDashes">Entry ignored.\nEnter a number between 1 - 100</string>
+    <string name="too_low_message">TOO LOW! Try again!</string>
+    <string name="too_high_message">TOO HIGH! Try again!</string>
+    <string name="winning_number">The winning number was %1$d</string>
+    <string name="winner_textview">CORRECT! You win!</string>
+    <string name="play_again_message">play again!</string>
+    <string name="lost_message">YOU LOST!</string>
+    <string name="you_win_message">YOU WON!</string>
+    <string name="winning_face_image">winning_face_image</string>
+    <string name="play_again">PLAY AGAIN!</string>
+</resources>
