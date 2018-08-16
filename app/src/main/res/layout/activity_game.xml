@@ -3,10 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/green_question_mark"
+    android:background="@drawable/the_number_game_background"
     tools:layout_editor_absoluteY="81dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     >
+    <ImageView
+        android:id="@+id/knottyapps_icon_image_view"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:src="@drawable/knottyapps_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="8dp"/>
 
     <EditText
         android:id="@+id/user_guess_editText"

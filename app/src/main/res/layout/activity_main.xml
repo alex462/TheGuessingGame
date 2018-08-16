@@ -4,9 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/orange_question_mark"
+    android:background="@drawable/the_number_game_background"
     tools:layout_editor_absoluteY="81dp"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/knottyapps_icon_image_view"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:src="@drawable/knottyapps_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="8dp"/>
 
     <Button
         android:id="@+id/start_button"
